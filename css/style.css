@@ -1,0 +1,84 @@
+*{
+box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    padding: 30px;
+}
+header nav ul li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin: 0px 30px 0px 20px ;
+    font-size: large;
+
+}
+nav{
+    background-color: rgb(73, 70, 70);
+    /* height: 120px; */
+}
+header nav ul li span img{
+    padding: 10px;
+    margin: 5px;
+}
+main img{
+    width: 1020px;
+    margin: 0px auto;
+    padding: 50px;
+   width: 90% ;
+}
+.colm {
+    float: left;
+    width: 33.33%;
+    padding: 2px;
+
+}
+.buttom{
+    width: 60%;
+    float: left;
+    padding: 2px;
+}
+h1{
+    font-size: large;
+    font-weight: bold;
+}
+ aside{
+    padding: 150px; 
+     margin: -77% 150% 0 130%;
+    margin-bottom: 10px;
+    
+} 
+
+ .text{
+    text-align: left;
+    margin: 0px 45px 95px 0px ;
+    padding: 4px;
+    margin-right: 50%;
+    float: right;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+} 
+button{
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    background-color: black;
+    float: right;
+    margin: 295px -150px 0 0;
+
+}
+
+ footer{
+     clear: both;
+     background-color:  rgb(68, 66, 66);
+     height: 90px;
+     padding: 50px ;
+     margin: 0px 30px 0px 20px ;
+ }
